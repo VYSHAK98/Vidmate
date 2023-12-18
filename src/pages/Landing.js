@@ -8,7 +8,7 @@ function Landing() {
     <div>
       <Row className='p-5 mt-3 mb-3' style={{ backgroundColor: '#f2f2f2' }}>
 
-        <Col>
+        <Col lg={7} md={8} sm={12}>
 
           <div className='ms-5'>
             <h1 id='h1' className='mt-5 ps-5 fs-1'>Video Uploader</h1>
@@ -21,7 +21,7 @@ function Landing() {
           </div>
 
         </Col>
-        <Col>
+        <Col lg={5} md={4} sm={12}>
 
           <img className='w-100 container' src="https://i.postimg.cc/HL9MbZsg/google-play-loader-animation-800x600.gif" alt="" />
 
@@ -32,7 +32,7 @@ function Landing() {
         <Container>
           <Row className='ms-5 p-5'>
             <h1 id='h1' className='text-center'>Features</h1>
-            <Col>
+            <Col lg={4} md={12} sm={12}>
               <Link style={{ textDecoration: 'none' }} to={'/home'}>
                 <Card className='ms-4 mt-4 mb-5' style={{ width: '100%' }}>
                   <Card.Img style={{ height: '300px' }} variant="top" src="https://i.postimg.cc/0jfC3BXL/animated-play-button.gif" />
@@ -49,7 +49,7 @@ function Landing() {
               </Link>
             </Col>
 
-            <Col>
+            <Col lg={4} md={12} sm={12}>
               <Link style={{ textDecoration: 'none' }} to={'/home'}>
                 <Card className='ms-3 mt-4 mb-5' style={{ width: '100%' }}>
                   <Card.Img style={{ height: '300px' }} variant="top" src="https://i.postimg.cc/43Hmn2tV/8feef867242968be2d36672879637bc07c9160d216ab0f-ig-HLsp-fw658.webp" />
@@ -66,7 +66,7 @@ function Landing() {
               </Link>
             </Col>
 
-            <Col>
+            <Col lg={4} md={12} sm={12}>
               <Link style={{ textDecoration: 'none' }} to={'/history'}>
                 <Card className='ms-2 mt-4 mb-5' style={{ width: '100%' }}>
                   <Card.Img style={{ height: '300px' }} variant="top" src="https://i.postimg.cc/rpjFDGbq/giphy.gif" />
@@ -86,10 +86,10 @@ function Landing() {
         </Container>
       </div>
       <Row className='p-5'>
-        <Col>
-          <iframe className='ms-5 mb-5 mt-5' width="600" height="400" src="https://www.youtube.com/embed/SqcY0GlETPk?si=C2hWCjbI4yF0Qjsy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <Col lg={7} md={12} sm={12}>
+          <iframe className='ms-5 mb-5 mt-5 w-75' width="600" height="400" src="https://www.youtube.com/embed/SqcY0GlETPk?si=C2hWCjbI4yF0Qjsy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </Col>
-        <Col>
+        <Col lg={5} md={12} sm={12}>
           <h2 className='mt-5 ms-3'>React Tutorial for Beginners</h2>
           <p className='ms-3 mb-5 mt-5'>React JS Tutorial for Beginners - Learn React 18 with TypeScript and build awesome frontend app!
             - Want to learn more? Get my complete React mastery course: http://bit.ly/3l0vWYR

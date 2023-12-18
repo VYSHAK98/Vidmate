@@ -15,7 +15,7 @@ function Home() {
   return (
     <div>
       <Row className='m-5 p-5'>
-        <Col lg={8} className='pe-5'>
+        <Col lg={8} md={12} sm={12} className='pe-5'>
           <h1 className='p-2' id='home1'>Start Uploading Videos For Free</h1>
           <p className='mt-2 mb-5 fs-5 p-2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus in blanditiis dignissimos doloribus accusamus porro id dicta, nam, repudiandae molestia.</p>
           <Link style={{ textDecoration: 'none' }} to={'/history'}>
@@ -24,18 +24,18 @@ function Home() {
               <span className='ms-2'>Watch History</span></h2>
           </Link>
         </Col>
-        <Col lg={4}>
+        <Col lg={4} md={12} sm={12} >
           <Add updateData={setAddUpdate}></Add>
         </Col>
       </Row>
 
 
       <Row className='p-3 mt-4 mb-5 bg-light'>
-        <Col lg={8}>
+        <Col lg={8} md={12} sm={12} >
           <Videos data={addUpdate}></Videos>
         </Col>
 
-        <Col lg={4}>
+        <Col lg={4} md={12} sm={12} >
           <Categories></Categories>
         </Col>
       </Row>
